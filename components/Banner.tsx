@@ -1,4 +1,4 @@
-//Banner message component
+//Banner message component displays a banner message at the top of the page.
 
 interface BannerProps {
     type: string;
