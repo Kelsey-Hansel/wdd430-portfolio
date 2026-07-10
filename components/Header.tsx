@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavLinks from "@/components/NavLinks";
 
 export default function Header() {
     return (
@@ -8,8 +9,9 @@ export default function Header() {
             </div>
             <nav className="flex justify-between items-center">
                 <ul className="flex gap-4">
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/about">About</Link></li>
+                    <li><NavLinks href="/">Home</NavLinks></li>
+                    <li><NavLinks href="/about">About</NavLinks></li>
+                    <li><NavLinks href="/contact">Contact</NavLinks></li>
                 </ul>
             </nav>
         </header>
